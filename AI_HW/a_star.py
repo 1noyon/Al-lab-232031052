@@ -51,5 +51,5 @@ goal = 'F'
 total_cost, path = a_star(graph, start, goal, heuristic)
 
 
-print("\nPath found:", " → ".join(path))
+print("\nPath   found:", " → ".join(path))
 print("Total Cost:", total_cost)
